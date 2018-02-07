@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /archive/
+Disallow: /docs/
+Disallow: /images/
+
+User-agent: Yandex
+Disallow: /archive/
+Disallow: /docs/
+Disallow: /images/
+Host: ifanbel.bas-net.by/mpp 

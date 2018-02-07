@@ -1,0 +1,308 @@
+* {
+	margin:0;
+	padding:0;
+}
+h2{
+	font-family:Roboto, serif;
+	font-size:15px;
+	font-weight:800;
+	line-height:2em;
+	padding-bottom:1.5em;
+}
+h3 {
+	font-size:14px;
+	padding-bottom:0.5em;
+}
+.wrap {
+	max-width:1200px;
+	min-width:800px;
+	margin:0 auto;
+	height:1000px;
+}
+.header{
+	width:100%;
+	padding-top:30px;
+	height:125px;
+}
+.t-l{
+	height:95px;
+	padding:0 15px 0 15px;
+}
+#logo {
+	float:left;
+	font-family:'Roboto Condensed';
+	font-size:18px;
+	line-height:1.5em;
+	width:80%;
+}
+#logo a {
+	display:block;
+	margin-right:100px;
+	float:left;
+}
+#social {
+	width:85px;
+	float:right;
+}
+#social li {
+	display:inline-block;
+	float:right;
+}
+.header p {
+	padding-top:25px;
+	font-weight:800;
+}
+.header span {
+	font-weight:300;
+	font-size:15px;
+}
+.content{
+	border-top:1px solid #000;
+	width:100%;
+	margin-top:30px;
+	overflow:hidden;
+}
+nav {
+	padding:55px 0 30px 15px;
+	width:210px;
+	margin-right:50px;
+	float:left;
+/*	background-color:#0cc; */
+}
+nav li {
+	list-style-type:none;
+	line-height:2em;
+	font-family:'Roboto Condensed', serif;
+	font-weight:800;
+	font-size:15px;
+}
+.content a {
+	color:#000;
+	text-decoration:none;
+}
+.content a:hover{
+	text-decoration:underline;
+}
+#active{
+	color:#A13232 !important;
+}
+.info {
+	padding:55px 15px;
+	margin-left:300px;
+	font-family:Arial, 'Open Sans', serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:1.6em;
+	color:#000;
+}
+.subinfo{
+	padding-bottom:50px;
+}
+.subinfo ul{
+	margin:0 0 10px 20px;
+}
+.orgcom  ul{
+	list-style-type:none;
+}
+.orgcom ul li {
+	margin-bottom:2em;
+}.orgcom ul li ul li{
+	margin-bottom:0 !important;
+}
+.unlist ul {
+	list-style-type:none;
+	margin:0;
+}
+.colslist ul {
+	margin-right:25%;
+}
+.colslist ul li{
+	display:inline-block;
+	width:49%;
+	vertical-align:top;
+}
+.placeimg, .reqimg, .secimg, .langimg, .dlimg{
+	width:30px;
+	float:left;
+}
+.placetext, .reqtext, .sectext, .langtext, .dltext {
+	margin-left:50px;
+}
+textarea, input, select, button {
+    font-family:Arial, Helvetica, serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:1.6em;
+}
+/*  -------- F O O T E R --------  */
+.footer {
+	width:100%;
+	height:50px;
+	padding:20px 0 10px 15px;
+	border-top:1px solid #000;
+}
+.footer p , .subinfo span{
+	font-family:'Roboto Condensed', Arial, serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.5em;
+}
+.footer a {
+	text-decoration:none;
+	color:#000;
+}
+.footer a:hover {
+	text-decoration:underline;
+}
+/* ------- С Т И Л И З А Ц И Я   Ф О Р М Ы ------ */
+
+*:focus {
+	outline:none;
+}
+/* === List Styles === */
+
+.regform ul {
+    width:750px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+.regform li{
+	padding:10px;
+	position:relative;
+	overflow:hidden;
+}
+
+/* === Form Header === */
+
+.required_notification {
+	color:#d45252; 
+	margin:5px 0 0 0; 
+	display:inline;
+	float:right;
+}
+
+/* === Form Elements === */
+.regform label {
+	width:270px;
+	display:inline-block;
+	float:left;
+	padding:1px;
+}
+.regform label span{
+	font-size:11px;
+	color:#A13232;
+	line-height:0.5em !important;
+}
+.line {
+	height:22px; 
+	width:220px; 
+	padding:0 5px;
+}
+.regform textarea {padding:5px; width:300px;}
+
+	/* form element visual styles */
+	.regform input, .regform textarea { 
+		border:1px solid #aaa;
+		border-radius:2px;
+		padding-right:30px;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.regform input:focus, .regform textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+	}
+select {
+	border:1px solid #aaa;
+	border-radius:2px;
+	height:24px;
+    width:450px;
+}
+
+/* === HTML5 validation styles === */	
+.regform input:required, .regform textarea:required, .regform select:required {
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+}
+.regform input:required:valid, .regform textarea:required:valid {
+	background: #fff url(images/valid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.regform input:focus:invalid, .regform textarea:focus:invalid {
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Form hints === */
+.form_hint {
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* hints stay above all other elements */
+	position: absolute; /* allows proper formatting if hint is two lines */
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#d45252;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.regform input:focus + .form_hint {display: inline;}
+.regform input:required:valid + .form_hint {background: #28921f;}
+.regform input:required:valid + .form_hint::before {color:#28921f;}
+	
+/* === Button Style === */
+button.submit {
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+button.submit:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+	
+}
+
+.honey {
+	display:none;
+}
